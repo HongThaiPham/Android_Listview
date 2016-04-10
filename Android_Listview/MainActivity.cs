@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Collections.Generic;
 
 namespace Android_Listview
 {
@@ -12,7 +13,8 @@ namespace Android_Listview
     public class MainActivity : Activity
     {
         int count = 1;
-
+        private List<string> mItem;
+        private ListView mListView;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -20,11 +22,19 @@ namespace Android_Listview
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            mListView = FindViewById<ListView>(Resource.Id.myListView);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+
+            mItem = new List<string>
+            {
+                "Pham",
+                "Hong",
+                "Thai"
+            };
+
+            ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItem);
+
+            mListView.Adapter = adapter;
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\GitHub\Android_Listview\Android_Listview\bin\Debug\Android_Listview.dll
+C:\GitHub\Android_Listview\Android_Listview\bin\Debug\Android_Listview.pdb
+C:\GitHub\Android_Listview\Android_Listview\bin\Debug\Android_Listview.Android_Listview.apk
+C:\GitHub\Android_Listview\Android_Listview\bin\Debug\Android_Listview.Android_Listview-Signed.apk
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\Android_Listview.csprojResolveAssemblyReference.cache
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\Android_Listview.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\Android_Listview.pdb
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\android\bin\Android_Listview.Android_Listview.apk
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\res\layout\main.xml
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\res\values\strings.xml
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\res\drawable\icon.png
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\R.cs.flag
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\uploadflags.txt
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\Android_Listview.dll.mdb
+C:\GitHub\Android_Listview\Android_Listview\bin\Debug\Android_Listview.dll.mdb

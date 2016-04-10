@@ -1,0 +1,9 @@
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\Android_Listview.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\Mono.Android.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\mscorlib.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\System.Core.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\System.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\System.Xml.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\System.Xml.Linq.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\System.Runtime.Serialization.dll
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\assemblies\System.ServiceModel.Internals.dll
