@@ -32,7 +32,8 @@ namespace Android_Listview
                 "Thai"
             };
 
-            ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItem);
+            //ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItem);
+            MyListViewAdapter adapter = new MyListViewAdapter(this, mItem);
 
             mListView.Adapter = adapter;
         }
