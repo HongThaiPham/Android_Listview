@@ -11,5 +11,6 @@ C:\GitHub\Android_Listview\Android_Listview\obj\Debug\res\drawable\icon.png
 C:\GitHub\Android_Listview\Android_Listview\obj\Debug\R.cs.flag
 C:\GitHub\Android_Listview\Android_Listview\obj\Debug\uploadflags.txt
 C:\GitHub\Android_Listview\Android_Listview\obj\Debug\res\layout\listview_row.xml
+C:\GitHub\Android_Listview\Android_Listview\obj\Debug\Android_Listview.csprojResolveAssemblyReference.cache
 C:\GitHub\Android_Listview\Android_Listview\obj\Debug\Android_Listview.dll.mdb
 C:\GitHub\Android_Listview\Android_Listview\bin\Debug\Android_Listview.dll.mdb

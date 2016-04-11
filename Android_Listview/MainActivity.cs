@@ -13,7 +13,7 @@ namespace Android_Listview
     public class MainActivity : Activity
     {
         int count = 1;
-        private List<string> mItem;
+        private List<Person> mItem;
         private ListView mListView;
         protected override void OnCreate(Bundle bundle)
         {
@@ -25,12 +25,10 @@ namespace Android_Listview
             mListView = FindViewById<ListView>(Resource.Id.myListView);
 
 
-            mItem = new List<string>
-            {
-                "Pham",
-                "Hong",
-                "Thai"
-            };
+            mItem = new List<Person>();
+            mItem.Add(new Person {FirstName="Pham",LastName="Thai",Age="26", Gender="Male" });
+            mItem.Add(new Person { FirstName = "Leo", LastName = "Pham", Age = "26", Gender = "Male" });
+            mItem.Add(new Person { FirstName = "Ga", LastName = "Chu", Age = "23", Gender = "Female" });
 
             //ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItem);
             MyListViewAdapter adapter = new MyListViewAdapter(this, mItem);
