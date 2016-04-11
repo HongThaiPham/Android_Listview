@@ -34,6 +34,18 @@ namespace Android_Listview
             MyListViewAdapter adapter = new MyListViewAdapter(this, mItem);
 
             mListView.Adapter = adapter;
+            mListView.ItemClick += MListView_ItemClick;
+            mListView.ItemLongClick += MListView_ItemLongClick;
+        }
+
+        private void MListView_ItemLongClick(object sender, AdapterView.ItemLongClickEventArgs e)
+        {
+            Console.WriteLine(mItem[e.Position].LastName);
+        }
+
+        private void MListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            Console.WriteLine(mItem[e.Position].FirstName);
         }
     }
 }
